@@ -1,0 +1,18 @@
+<?php
+
+	$str=urlencode("Beijing");
+	
+	echo "<a href='a.php?city=".$str."&name=xiaoming'>send</a>";
+
+?>
+
+
+<?php
+
+	echo "<pre>";
+	echo print_r($_GET);
+	echo "</pre>";
+	
+	echo $_GET('city');
+	
+?>

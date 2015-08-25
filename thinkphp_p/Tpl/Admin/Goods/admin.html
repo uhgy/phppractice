@@ -1,0 +1,49 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<import type='css' file='Admin.Images.css1.css' />
+<style>
+td,th {
+	text-align: center
+}
+</style>
+</head>
+
+<body>
+	<form method='post' action='__URL__/deleteAll'>
+		<table class="table" cellspacing="1" cellpadding="2" width="99%"
+			align="center" border="0">
+			<tbody>
+				<tr>
+					<th class="bg_tr" align="left" height="25">序号</th>
+					<th class="bg_tr" align="left" height="25">商品名</th>
+					<th class="bg_tr" align="left" height="25">商品价格</th>
+					<th class="bg_tr" align="left" height="25">所属分类</th>
+					<th class="bg_tr" align="left" height="25">修改</th>
+					<th class="bg_tr" align="left" height="25">
+						<input type='submit' name='deleteSubmit' value='删除' />
+					</th>
+				</tr>
+				<volist name='data' id='vo'>
+				<tr>
+					<td class="td_bg" width="5%" height="23" align="center">{$i}</td>
+					<td class="td_bg">{$vo.name}</td>
+					<td class="td_bg">{$vo.price}</td>
+					<td class="td_bg">{$vo.cid}</td>
+					<td class="td_bg">
+						<a href="__URL__/edit/id/{$vo.id}">修改</a>
+					</td>
+					<td class="td_bg">
+						<input type='checkbox' value="{$vo.id}" name='id[]' />
+					</td>
+				</tr>
+				</volist>
+				<tr>
+					<td colspan="6">分页</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>

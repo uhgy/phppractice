@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename source module &apos;Lib/Model.GoodsAction.class.php&apos; to &apos;GoodsModel.class.php&apos;&#x0D;&#x0A;- Original element: &apos;Lib/Model\GoodsAction.class.php&apos;&#x0D;&#x0A;- Renamed element: &apos;Lib/Model\GoodsModel.class.php&apos;" description="Rename source module &apos;GoodsAction.class.php&apos;" flags="589830" id="org.eclipse.dltk.ui.rename.sourcemodule" input="/&lt;Lib\/Model{GoodsAction.class.php" name="GoodsModel.class.php" stamp="1437415469260" version="1.0"/>
+</session>

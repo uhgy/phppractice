@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>在此处插入标题</title>
+<style>
+tr {
+	background-color: white;
+	font-size: 12px;
+	height: 30px;
+}
+</style>
+<script language='javascript' src='public/public.js'></script>
+<script>
+	window.onload = function() {
+		$('btnOk').onclick = function() {
+			admin();
+		};
+	};
+
+	function admin() {
+		$.post('demo05.php', null, function(msg) {
+				while ($("result").firstChild) {
+    			$("result").removeChild($("result").firstChild);
+				}
+			for ( var i = 0; i < msg.length; i++) {
+				var tr = document.createElement('tr');
+				var td1 = document.createElement('td');
+				td1.innerHTML = msg[i].id;
+				var td2 = document.createElement('td');
+				td2.innerHTML = msg[i].name;
+				var td3 = document.createElement('td');
+				td3.innerHTML = '<a href=# onclick=del(' + msg[i].id
+						+ ')>删除</a>';
+				tr.appendChild(td1);
+				tr.appendChild(td2);
+				tr.appendChild(td3);
+				$("result").appendChild(tr);
+			}
+		}, 'json');
+	}
+
+	function del(id) {
+		$.get('demo05_2.php', 'id=' + id, function(msg) {
+			if (msg == 1) {
+				admin();
+			}
+		});
+	}
+</script>
+</head>
+<body>
+	<input type='button' id='btnOk' value='查询' />
+	<hr>
+	<table id='result' width=800 cellspacing="1" cellpadding="4"
+		bgcolor='#6699cc'>
+
+	</table>
+</body>
+</html>

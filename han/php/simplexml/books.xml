@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<books>
+  <book house="Tsing Hua express" house2="machine express">
+    <code>sb001</code>
+    <price>100</price>
+    <author>Ming dynasty</author>
+    <title>Tian LOng</title>
+  </book>
+  <book house="Peking express">
+    <code>sb002</code>
+    <price>400</price>
+    <author>Ming 3</author>
+    <title>Xiao Ao Jianghu</title>
+  </book>
+</books>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="E:\Program\ZendStudio\jre" version="1.7.0_67">
+<bootpath>
+<entry path="E:\Program\ZendStudio\jre\lib\resources.jar"/>
+<entry path="E:\Program\ZendStudio\jre\lib\rt.jar"/>
+<entry path="E:\Program\ZendStudio\jre\lib\sunrsasign.jar"/>
+<entry path="E:\Program\ZendStudio\jre\lib\jsse.jar"/>
+<entry path="E:\Program\ZendStudio\jre\lib\jce.jar"/>
+<entry path="E:\Program\ZendStudio\jre\lib\charsets.jar"/>
+<entry path="E:\Program\ZendStudio\jre\lib\jfr.jar"/>
+<entry path="E:\Program\ZendStudio\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="E:\Program\ZendStudio\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="E:\Program\ZendStudio\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="E:\Program\ZendStudio" version="1.7.0_67">
+<bootpath>
+<entry path="E:\Program\ZendStudio\jre\lib\resources.jar"/>
+<entry path="E:\Program\ZendStudio\jre\lib\rt.jar"/>
+<entry path="E:\Program\ZendStudio\jre\lib\sunrsasign.jar"/>
+<entry path="E:\Program\ZendStudio\jre\lib\jsse.jar"/>
+<entry path="E:\Program\ZendStudio\jre\lib\jce.jar"/>
+<entry path="E:\Program\ZendStudio\jre\lib\charsets.jar"/>
+<entry path="E:\Program\ZendStudio\jre\lib\jfr.jar"/>
+<entry path="E:\Program\ZendStudio\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="E:\Program\ZendStudio\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="E:\Program\ZendStudio\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

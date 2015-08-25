@@ -1,0 +1,24 @@
+<html>
+<head>
+	<meta http-equiv="content-type" type="text/css; charset=UTF-8"/>
+	<script type="text/javascript">
+		function test1(){
+			var con=content.value;
+			window.alert(con);
+			//var myReg=/(\d){4}/gi;
+			//var myReg=new RegExp("(\\d){4}","gi");
+			var myReg=/(\d){5}-((\d){3}){3}/gi;//can be different
+			//var myReg=/(\d){5}-(\d)\2\2(\d)\3\3(\d)\4\4/gim;
+			//var myReg=/^[a-zA-Z0-9_-]+@([a-zA-Z0-9]+\.)+(com|cn|org)$/gi;
+			while(res=myReg.exec(con)){
+				window.alert("found "+res[0]); 
+			}
+
+		}
+	</script>
+</head>
+<body>
+	<textarea id="content" row="10" cols="20"></textarea>
+	<input type="button" onclick="test1()" value="test"/>
+</body>
+</html>

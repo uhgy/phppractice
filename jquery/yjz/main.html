@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>电话订单记录</title>
+  <script src="jquery-1.7.1.min.js" type="text/javascript"></script>
+  <script>
+
+		$(function(){
+			$("#cha").click(function(){
+				var formData = {
+					action : "findOrder",
+					teleNum : $("#teleNum").val(),
+					orderNum : $("#orderNum").val(),
+					orderState : $("#orderState").val()
+				};
+				$.post("getTele.php", formData, 
+					function (data, textStatus){
+					showData(data);
+					//$("#txtHint").html(data);			
+					//$("input[value='添加']").attr("disabled", "true");	
+				});
+			});
+
+			$("#zeng").click(function(){
+				var formData = {
+					action : "addOrder",
+					teleNum : $("#teleNum").val(),
+					orderNum : $("#orderNum").val(),
+					orderState : $("#orderState").val()
+				};
+				$.post("getTele.php", formData,
+				  function (data, textStatus){
+					showData(data);
+				});
+			});
+
+			$("#geng").live("click", function(){
+				if($(this).text() == "更新"){
+					$(this).text("保存");
+					$line = $(this).parent().siblings("td");
+					$.each($line, function(key, val){
+						var inner = val.innerHTML;
+						$(val).wrapInner("<input type='text'></input>").children().attr("value", inner);	
+					});
+					$("td > input:eq(1)").attr("disabled", "true");
+					$("td > button:contains('更新')").attr("disabled", "false");				
+				}else if($(this).text() == "保存"){
+					$(this).text("更新");
+					$("td > button").attr("disabled", "false");
+					$line = $(this).parent().siblings("td");
+					var res=[];
+					$.each($line, function(key, val){
+						res.push($(val).children().attr("value"));
+					});
+					var formData = {
+						action : "updateOrder",
+						teleNum : res[0],
+						orderNum : res[1],
+						orderState : res[2]
+					};
+					$.post("getTele.php", formData,
+					  function (data, textStatus){
+						showData(data);
+						//$("#txtHint").html(data);
+					});
+				};
+			});
+
+		});
+
+		function showData(data){
+			$("tbody").empty();
+			if(data != "nothing"){
+				var  allTeleInfo = $(eval ("(" + data + ")"));
+				var infoNum = allTeleInfo.length;
+				for(var i = 0; i < infoNum; i++){
+					$("tbody").append("<tr><td>" + allTeleInfo[i].teleNum 
+						+ "</td><td>" + allTeleInfo[i].orderNum
+						+ "</td><td>" + allTeleInfo[i].orderState 
+						+ "</td><td><button id='geng' >更新</button></td></tr>");
+				}
+			}else{
+				$("#txtHint").html(data);
+			}	
+		};
+	</script>   
+</head>
+<body>
+	<form method="post">
+		电话号码：<input id="teleNum"></input><hr>
+		订单号码：<input id="orderNum"></input><hr>
+		订单状态：<input id="orderState"></input><hr>
+		<input type="button" id="cha" value="查找"/>
+		<input type="button" id="zeng" value="添加"/><p></p>
+		<input type="text" value="dasf">hfhg</input>
+	</form>
+	<div id="txtHint"><b>Person info will be listed here.</b></div>
+	<table border="1">
+		<thead>
+			<tr id="teleNotion"><td>电话号码</td><td>订单编号</td><td>订单状态</td><td>操作</td></tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+</body>
+</html>
+

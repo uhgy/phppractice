@@ -1,0 +1,7 @@
+<ifModule rewrite_module>
+RewriteEngine On
+#你怎么知道,这个请求就是www.hsp.com发来的. referer
+#如果你请求的是一个jpg图片, 就禁止
+RewriteCond %{HTTP_REFERER} !www.hgy.com  
+RewriteRule .*\.jpg -[F]
+</ifModule>

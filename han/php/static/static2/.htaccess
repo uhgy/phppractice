@@ -1,0 +1,11 @@
+#Allow from all
+DirectoryIndex abc.html abc2.html
+errorDocument 404 /404.html
+
+<IfModule rewrite_module>
+  RewriteEngine On
+  #visit aaa.html jumpto news.php
+  RewriteRule news-([a-zA-Z]+)-id(\d+)\.html$ news.php?type=$1&id=$2 
+  RewriteRule aaa.html news.php?type=music&id=34
+</IfModule>
+

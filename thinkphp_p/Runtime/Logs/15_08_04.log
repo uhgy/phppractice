@@ -1,0 +1,122 @@
+[ 2015-08-04T10:43:26+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2015-08-04T10:43:26+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.004001s ]
+[ 2015-08-04T10:43:26+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.007001s ]
+[ 2015-08-04T10:43:26+08:00 ] / | INFO: Tag[ view_template ] --START--
+[ 2015-08-04T10:43:26+08:00 ] / | INFO: Run LocationTemplate Behavior [ RunTime:0.003000s ]
+[ 2015-08-04T10:43:26+08:00 ] / | INFO: Tag[ view_template ] --END-- [ RunTime:0.003000s ]
+[ 2015-08-04T10:43:26+08:00 ] / | INFO: Tag[ view_parse ] --START--
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 186 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 402 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 406 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 220 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead ThinkTemplate.class.php 第 154 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8] Undefined variable: value 99965aa89ec1c4c69b29d283770f80ca.php 第 128 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8] Undefined variable: value 99965aa89ec1c4c69b29d283770f80ca.php 第 141 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8] Undefined variable: value 99965aa89ec1c4c69b29d283770f80ca.php 第 368 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8] Undefined variable: value 99965aa89ec1c4c69b29d283770f80ca.php 第 369 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8] Undefined variable: value 99965aa89ec1c4c69b29d283770f80ca.php 第 370 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8] Undefined variable: value 99965aa89ec1c4c69b29d283770f80ca.php 第 373 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8] Undefined variable: value 99965aa89ec1c4c69b29d283770f80ca.php 第 375 行.
+[ 2015-08-04T10:43:26+08:00 ] / | NOTIC: [8] Undefined variable: pager 99965aa89ec1c4c69b29d283770f80ca.php 第 384 行.
+[ 2015-08-04T10:43:26+08:00 ] / | INFO: Run ParseTemplate Behavior [ RunTime:0.043002s ]
+[ 2015-08-04T10:43:26+08:00 ] / | INFO: Tag[ view_parse ] --END-- [ RunTime:0.043002s ]
+[ 2015-08-04T10:43:26+08:00 ] / | INFO: Tag[ view_filter ] --START--
+[ 2015-08-04T10:43:26+08:00 ] / | INFO: Run ContentReplace Behavior [ RunTime:0.002001s ]
+[ 2015-08-04T10:43:26+08:00 ] / | INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+[ 2015-08-04T10:43:26+08:00 ] / | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2015-08-04T10:43:26+08:00 ] / | INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+[ 2015-08-04T10:43:26+08:00 ] / | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007001s ]
+[ 2015-08-04T10:43:26+08:00 ] / | INFO: Tag[ view_end ] --START--
+[ 2015-08-04T10:43:26+08:00 ] / | INFO: Run ShowPageTrace Behavior [ RunTime:0.004000s ]
+[ 2015-08-04T10:43:26+08:00 ] / | INFO: Tag[ view_end ] --END-- [ RunTime:0.004000s ]
+[ 2015-08-04T21:33:24+08:00 ] /index.php/Admin/admin | ERR: (ThinkException) 无法加载模块admin
+[ 2015-08-04T21:33:34+08:00 ] /index.php/Admin/login | ERR: (ThinkException) 无法加载模块login
+[ 2015-08-04T21:33:50+08:00 ] /index.php/Admin/admin | ERR: (ThinkException) 无法加载模块admin
